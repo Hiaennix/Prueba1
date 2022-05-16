@@ -20,23 +20,30 @@ namespace Prueba1Liessel
         public int CapMax { get { return capMax; } set { capMax = value; } }
         public byte Tamaño { get { return tamaño; } set { tamaño = value; } }
         public bool EsRefrigerado { get { return esRefrigerado; } set { esRefrigerado = value; } }
-        public int PesoActual { get { return pesoActual; } set { pesoActual = value;} }
+        public int PesoActual { get { return pesoActual; } set { pesoActual = value; } }
 
-        public Buque buque;
+
+        public int ValorPagoInspeccion()
+        {
+            return pesoActual * 5;
+        }
+
+
+        internal class Buque {
         
 
         public void SacarPeso() { }
 
-        public int ValorPagoInspeccion()
-        {
-            return pesoActual*5;  
-        }
+        
         public int CalcularGastosEnvio()
         {
-            return CantContainers{ get; set; };
+             CantContainers
 
         }
 
-        public bool puedeSubir { get; set; }
+            public bool puedeSubir() { return false; }
+
+
+    }
     }
 }

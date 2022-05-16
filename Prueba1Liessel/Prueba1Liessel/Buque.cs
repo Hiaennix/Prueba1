@@ -26,6 +26,14 @@ namespace Prueba1Liessel
 
 
 
-        public void SubirContainer(int NuevoContainer Container): bool;
+        public bool SubirContainer(Container asdfg) 
+        {
+            bool container1;
+
+            if(asdfg.Tamaño)
+
+            return true;
+
+        }
     }
 }
