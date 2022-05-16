@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Prueba1Liessel",
+    "\\Prueba1Liessel\\Prueba1Liessel"
   ],
-  "SelectedNode": "\\C:\\Users\\laboratorio\\Source\\Repos\\Prueba1",
+  "SelectedNode": "\\Prueba1Liessel\\Prueba1Liessel\\Buque.cs",
   "PreviewInSolutionExplorer": false
 }

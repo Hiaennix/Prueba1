@@ -16,6 +16,16 @@ namespace Prueba1Liessel
         private int gastoTransp;
         private List<Container> listaContainers;
 
+        public string Codigo { get { return codigo; } }
+        public string Nombre { get { return nombre; } set { nombre = value; } }
+        public string Pais { get { return pais; } set { pais = value; } }
+        public int CantContainers { get { return cantContainers; } set { cantContainers = value; } }
+        public int CantContainersC { get { return cantContainersC; } set { cantContainersC = value; } }
+        public int GastoTransp { get { return gastoTransp; } set { gastoTransp = value; } }
+        public List<Container> ListaContainers { get { return listaContainers; } set { listaContainers = value; } }
+
+
+
         public void SubirContainer(int NuevoContainer Container): bool;
     }
 }
