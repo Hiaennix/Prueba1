@@ -16,6 +16,6 @@ namespace Prueba1Liessel
         private int gastoTransp;
         private List<Container> listaContainers;
 
-        public void SubirContainer(NuevoContainer:Container): bool;
+        public void SubirContainer(int NuevoContainer Container): bool;
     }
 }

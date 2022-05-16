@@ -17,9 +17,16 @@ namespace Prueba1Liessel
 
         public Buque buque;
 
-        public void SacarPeso();
+        public void SacarPeso() { }
 
-        public int ValorPagoInspeccion();
-        public int CalcularGastosEnvio();
+        public int ValorPagoInspeccion()
+        {
+            return pesoActual*5;  
+        }
+        public int CalcularGastosEnvio()
+        {
+
+
+        }
     }
 }
