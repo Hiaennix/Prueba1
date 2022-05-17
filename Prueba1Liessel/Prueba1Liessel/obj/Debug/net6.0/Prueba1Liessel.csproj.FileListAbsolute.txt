@@ -1,0 +1,5 @@
+C:\Users\Liessel\Source\Repos\Prueba1\Prueba1Liessel\Prueba1Liessel\obj\Debug\net6.0\Prueba1Liessel.csproj.AssemblyReference.cache
+C:\Users\Liessel\Source\Repos\Prueba1\Prueba1Liessel\Prueba1Liessel\obj\Debug\net6.0\Prueba1Liessel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Liessel\Source\Repos\Prueba1\Prueba1Liessel\Prueba1Liessel\obj\Debug\net6.0\Prueba1Liessel.AssemblyInfoInputs.cache
+C:\Users\Liessel\Source\Repos\Prueba1\Prueba1Liessel\Prueba1Liessel\obj\Debug\net6.0\Prueba1Liessel.AssemblyInfo.cs
+C:\Users\Liessel\Source\Repos\Prueba1\Prueba1Liessel\Prueba1Liessel\obj\Debug\net6.0\Prueba1Liessel.csproj.CoreCompileInputs.cache

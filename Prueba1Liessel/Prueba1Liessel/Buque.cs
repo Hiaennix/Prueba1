@@ -16,9 +16,7 @@ namespace Prueba1Liessel
         private int costoTransporte;
         private List<Container> listaContainers = new List<Container>();
 
-        /// <summary>
-        /// Getters y setters de la clase
-        /// </summary>
+        
         public string Codigo { get { return codigo; } }
         public string Nombre { get { return nombre; } set { nombre = value; } }
         public string Pais { get { return pais; } set { pais = value; } }
@@ -27,10 +25,7 @@ namespace Prueba1Liessel
         public int GastoTransporte { get { return costoTransporte; } set { costoTransporte = value; } }
         public List<Container> Containers { get { return listaContainers; } set { listaContainers = value; } }
 
-        /// <summary>
-        /// Constructor solo con código de la clase
-        /// </summary>
-        /// <param name="codigo"></param>
+       
         public Buque(string codigo)
         {
             if (codigo.Length >= 5)
@@ -43,13 +38,7 @@ namespace Prueba1Liessel
             }
         }
 
-        /// <summary>
-        /// Constructor con datos básicos de buque
-        /// </summary>
-        /// <param name="codigo"></param>
-        /// <param name="nombre"></param>
-        /// <param name="pais"></param>
-        /// <param name="cantidadContainers"></param>
+        
         public Buque(string codigo, string nombre, string pais, int cantidadContainers) : this(codigo)
         {
             if (codigo.Length >= 5)
@@ -67,12 +56,7 @@ namespace Prueba1Liessel
         }
 
 
-        /// <summary>
-        /// Método para subir un container si es que posee
-        /// la capacidad para ello siempre y cuando el método
-        /// PuedeSubir() de Container devuelva true
-        /// </summary>
-        /// <param name="container"> Objeto Container que será ingresado al buque </param>
+        
         public bool SubirContainer(Container container)
         {
             bool esPosible = false;
@@ -109,9 +93,7 @@ namespace Prueba1Liessel
 
         }
 
-        /// <summary>
-        /// Método que lista los containers de un buque
-        /// </summary>
+        
         public void ListarContainers()
         {
             foreach (Container container in listaContainers)

@@ -26,21 +26,10 @@ namespace Prueba1Liessel
         public int PesoActual { get => pesoActual; set => pesoActual = value; }
         public Buque Buque { get => buque; set => buque = value; }
 
-        /// <summary>
-        /// Constructor solo con código
-        /// </summary>
-        /// <param name="codigo"> Código del container </param>
+        
         public Container(string codigo) => this.codigo = codigo;
 
-        /// <summary>
-        /// Constructor con parámetros privados de la clase
-        /// </summary>
-        /// <param name="codigo"></param>
-        /// <param name="marca"></param>
-        /// <param name="cantidadMaxima"></param>
-        /// <param name="tamaño"></param>
-        /// <param name="esRefrigerado"></param>
-        /// <param name="pesoActual"></param>
+      
         public Container(string codigo, string marca, int cantidadMaxima, byte tamaño, bool esRefrigerado, int pesoActual)
         {
 
@@ -75,11 +64,7 @@ namespace Prueba1Liessel
         }
 
 
-        /// <summary>
-        /// Método para restar peso de un container 
-        /// siempre y cuando no resulte en peso negativo
-        /// </summary>
-        /// <param name="pesoPerdido"> Cantidad de peso que se restará al peso actual </param>
+       
         public void SacarPeso(int pesoPerdido)
         {
             int pesoResultante = pesoActual - pesoPerdido;
@@ -94,11 +79,7 @@ namespace Prueba1Liessel
             }
         }
 
-        /// <summary>
-        /// Precio que corresponde a la inspección
-        /// de un container en relación a su peso
-        /// </summary>
-        /// <returns> Devuelve el costo total de la inspección </returns>
+       
         public int ValorPagoInspeccion()
         {
             int costoInspeccion = pesoActual * 5;
@@ -106,11 +87,7 @@ namespace Prueba1Liessel
             return costoInspeccion;
         }
 
-        /// <summary>
-        /// Calcula el coste de enviar un container
-        /// dependiendo de si mide 20 o 40 pies
-        /// </summary>
-        /// <returns></returns>
+        
         public int CalcularGastosEnvio()
         {
             int coste = 0;
@@ -125,12 +102,7 @@ namespace Prueba1Liessel
             return coste;
         }
 
-        /// <summary>
-        /// Método para verificar si se puede subir peso a un container
-        /// </summary>
-        /// <param name="pesoMaximo"></param>
-        /// <param name="pesoPorSubir"></param>
-        /// <returns></returns>
+       
         public bool PuedeSubir(int pesoMaximo, int pesoPorSubir)
         {
             bool Cargar = false;
