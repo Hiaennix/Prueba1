@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\laboratorio\\Source\\Repos\\Prueba1\\Prueba1Liessel\\Prueba1Liessel\\Prueba1Liessel.csproj": {}
+    "C:\\Users\\Liessel\\Source\\Repos\\Prueba1\\Prueba1Liessel\\Prueba1Liessel\\Prueba1Liessel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\laboratorio\\Source\\Repos\\Prueba1\\Prueba1Liessel\\Prueba1Liessel\\Prueba1Liessel.csproj": {
+    "C:\\Users\\Liessel\\Source\\Repos\\Prueba1\\Prueba1Liessel\\Prueba1Liessel\\Prueba1Liessel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\laboratorio\\Source\\Repos\\Prueba1\\Prueba1Liessel\\Prueba1Liessel\\Prueba1Liessel.csproj",
+        "projectUniqueName": "C:\\Users\\Liessel\\Source\\Repos\\Prueba1\\Prueba1Liessel\\Prueba1Liessel\\Prueba1Liessel.csproj",
         "projectName": "Prueba1Liessel",
-        "projectPath": "C:\\Users\\laboratorio\\Source\\Repos\\Prueba1\\Prueba1Liessel\\Prueba1Liessel\\Prueba1Liessel.csproj",
-        "packagesPath": "C:\\Users\\laboratorio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\laboratorio\\Source\\Repos\\Prueba1\\Prueba1Liessel\\Prueba1Liessel\\obj\\",
+        "projectPath": "C:\\Users\\Liessel\\Source\\Repos\\Prueba1\\Prueba1Liessel\\Prueba1Liessel\\Prueba1Liessel.csproj",
+        "packagesPath": "C:\\Users\\Liessel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Liessel\\Source\\Repos\\Prueba1\\Prueba1Liessel\\Prueba1Liessel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\laboratorio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Liessel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
